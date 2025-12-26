@@ -1,8 +1,6 @@
 import cocotb
 from cocotb.clock import Clock
 from cocotb.triggers import RisingEdge, FallingEdge, Timer
-from cocotb.binary import BinaryValue
-import random
 
 @cocotb.test()
 async def test_rc5_encryption_basic(dut):
